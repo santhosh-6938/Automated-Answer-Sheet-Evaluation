@@ -1,0 +1,42 @@
+# Global
+*.log
+.DS_Store
+.env
+.env.* 
+*.env.local
+node_modules/
+dist/
+build/
+*.pyc
+__pycache__/
+*.sqlite3
+*.db
+
+# Backend - Python
+/backend/__pycache__/
+/backend/*.pyc
+/backend/*.pyo
+/backend/*.pyd
+/backend/.venv/
+/backend/venv/
+/backend/env/
+/backend/*.egg-info/
+/backend/.mypy_cache/
+/backend/.pytest_cache/
+/backend/.env
+
+# Backend - Node.js
+/backend/node_modules/
+/backend/package-lock.json
+
+# Frontend - React
+/frontend/node_modules/
+/frontend/.env
+/frontend/build/
+/frontend/package-lock.json
+
+# OS generated
+Thumbs.db
+ehthumbs.db
+*.swp
+*.swo
