@@ -16,6 +16,7 @@ reader = easyocr.Reader(['en'])  # Supports English
 results = reader.readtext(image_path)
 
 if not results:
+    print("HELLO")
     print(json.dumps({"error": "No text detected"}))
     exit()
 
